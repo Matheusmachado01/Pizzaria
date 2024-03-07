@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Faça seu Pedido!</title>
     <!-- Bootstrap -->
@@ -13,5 +14,16 @@
 </head>
 <body>
     <header>
-        <p>Cabeçalho</p>
-    </header>
+    <nav class="navbar navbar-expand-lg">
+    <a href="index.php" class="navbar-brand">
+        <img src="img/pizza.svg" alt="" class="Pizzaria do Matheus" id="brand-logo">
+    </a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a href="index.php" class="nav-link">Peça sua Pizza</a>  
+        </li>
+      </ul>     
+    </div>    
+  </nav>
+</header>

@@ -1,8 +1,9 @@
 <?php
  include_once("templates/header.php");
 ?>
-   <h1>Testando CSS</h1> 
-   <i class="fas fa-sync-alt"></i>
+  <div id="main-banner">
+   <h1>Faça seu Pedido</h1>
+  </div>
 <?php
  include_once("templates/footer.php");
 ?> 
