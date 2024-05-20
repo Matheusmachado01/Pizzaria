@@ -10,7 +10,6 @@
     $status = $_SESSION["status"];
 
     $_SESSION["msg"] = "";
-    $_SESSION["status"] = "";
 
 
   }
